@@ -1,0 +1,73 @@
+.section-4-images .section-4-images-images-1 {
+    border-radius: 50%;
+    position: absolute;
+    width: 70%;
+    top: 75px;
+    right: 20px;
+}
+
+.section-4-images .section-4-images-images-2 {
+    border-radius: 50%;
+    position: absolute;
+    width: 40%;
+    z-index: 1;
+    top: 0;
+    right: 0;
+}
+
+.section-4-images {
+    width: 50%;
+    position: relative;
+    height: 422px;
+}
+
+.section-4-font {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.section-4-font i {
+    color: #4A3E73;
+    margin-left: 20px;
+}
+
+.section-4-font span:hover {
+    padding-right: 20px;
+}
+
+.section-4-font h1 {
+    font-size: 2.5rem;
+    padding: 0;
+    margin: 0 0 30px 0;
+}
+
+.section-4-font span {
+    font-size: 1.2rem;
+    margin: 10px;
+    transition: padding-right .5s;
+
+}
+
+.section-4-divider {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDBweCIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNlZGYxZmYiPjxwYXRoIGQ9Ik0wIDEyNy44OTlsNjAuNjEzIDQuODc4IDk1LjY0NS02LjIxMSA4Ni4zNjMtMTYuMDc0IDc4LjY4NCA5Ljg4MyA5MC4xMzYtMjEuNTk0IDk0LjQ1NCA3LjU3NCA3Ny45MjUtMTcuNjYgOTEuNjY0IDIwLjc5OCA3Ni45NjEtMTIuNjQ5IDYzLjY2NC0yMS40MjIgOTcuNjAyIDcuMDcgODMuNjcyLTI5LjYxNyA2Ni4yODUgMTEuNjc4IDcwLjc5My0yMy4zMzQgNzQuODYzLTQuNjQxTDEyODAgMHYxNDBIMHoiIGZpbGwtb3BhY2l0eT0iLjUiLz48cGF0aCBkPSJNMCAxMjYuNzFsNjAuNjEzIDcuNDE1TDE1Ni4yNTcgMTMxbDg2LjM2NC0xMy44NzkgNzguNjgzIDkuNzMxIDkwLjEzNy0xNy4wNTkgOTQuNDUzIDcuNjY2IDc2LjkyNi0xMS44MzMgODIuNjY0IDEzLjkzNSA3Ni45NjEtOC40NzUgNzMuNjY0LTIyLjEyNiA5Ny42MDEgNy4zMjggODMuNjcyLTIyLjk1MiA2Ni4yODUgMTAuOTMzIDcwLjc5NC0xOC4yMjRoNzkuODYyTDEyODAgMzUuODM4VjE0MEgweiIvPjwvZz48L3N2Zz4=);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+ transform: scaleX(-1);
+}
+
+.main-why-our-choice {
+position: relative;
+width: 100%;
+padding: 0;
+margin: 0
+}
+.main-why-our-choice .why-our-choice{
+display: flex;
+padding: 0 10%;
+height: 500px;
+}

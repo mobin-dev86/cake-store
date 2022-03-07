@@ -1,0 +1,83 @@
+h1, h2, h3, h4, h5, h6, p, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.section-6-image-1 {
+}
+
+.section-6-container {
+    padding: 30px 10%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    height: 500px;
+}
+
+.section-6-container p {
+    font-size: 2rem;
+    font-weight: 500;
+    color: white;
+}
+
+.d-flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding-top: 10px;
+}
+
+
+.section-6-container-2 {
+    background-image: url("../../first-template/assets/images/cake-17.jpg");
+    color: white;
+    background-attachment: fixed;
+    width: 47%;
+    background-repeat: no-repeat;
+    background-size: 43% 500px;
+    background-position: 86% -53px;
+}
+
+.section-6-container-1 {
+    background-image: url("../../first-template/assets/images/cake-85.jpg");
+    color: white;
+    background-attachment: fixed;
+    width: 47%;
+    background-repeat: no-repeat;
+    background-size: 47% 500px;
+    background-position: 75px -53px;
+
+}
+
+.section-6-container .timer {
+    display: flex;
+    margin-top: 15px;
+}
+
+.section-6-container .timer > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.section-6-container .timer > div span:first-child{
+    font-size: 3rem;
+}
+.section-6-container .timer > span{
+    font-size: 3rem;
+    margin: 0 15px
+}
+
+
+
+
+
+
+/*
+{\_/} i <3 u
+( •.•)
+/>💜
+*/
+

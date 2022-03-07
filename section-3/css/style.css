@@ -1,0 +1,62 @@
+.about-us {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left: 10%;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+}
+
+.about-us .top {
+    background-color: #2E298E;
+    width: 35%;
+    color: white;
+    text-align: center;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    padding: 160px 20px 15px 20px;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+}
+
+.top .top-h {
+    font-size: 2.5rem;
+    margin: 15px;
+}
+
+.about-us .bottom {
+    display: flex;
+    overflow: hidden;
+
+
+}
+
+.about-us .bottom img {
+    flex: 1;
+    overflow: hidden;
+    z-index: 2;
+
+}
+
+.about-us .bottom img:last-child {
+    border-top-right-radius: 37%;
+    border-bottom-right-radius: 37%;
+}
+
+.bottom-divider {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMHZ3IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTEyODAgODZjLTE5LjktMTcuMjEtNDAuMDgtMzkuNjktNzkuODktMzkuNjktNTcuNDkgMC01Ni45MyA0Ni41OS0xMTUgNDYuNTktNTMuNjEgMC01OS43Ni0zOS42Mi0xMTUuNi0zOS42MkM5MjMuNyA1My4yNyA5MjQuMjYgODcgODUzLjg5IDg3Yy04OS4zNSAwLTc4Ljc0LTg3LTE4OC4yLTg3QzU1NCAwIDU0My45NSAxMjEuOCA0MjMuMzIgMTIxLjhjLTEwMC41MiAwLTExNy44NC01NC44OC0xOTEuNTYtNTQuODgtNzcuMDYgMC0xMDAgNDguNTctMTUxLjc1IDQ4LjU3LTQwIDAtNjAtMTIuMjEtODAtMjkuNTF2NTRIMTI4MHoiLz48L2c+PC9zdmc+);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
+.main-about-us {
+    position: relative;
+    width: 100%;
+    background-color: #FFF4ED;
+}

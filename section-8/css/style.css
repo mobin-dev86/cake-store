@@ -1,0 +1,108 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+input , textarea{
+    direction: rtl;
+}
+.footer{
+    width: 100%;
+    height: 700px;
+    position: relative;
+    display: flex;
+
+}
+.footer .top-divider{
+
+    position: absolute;
+    width: 100%;
+    height: 15px;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxLjJ2dyIgdmlld0JveD0iMCAwIDEyODAgMTQwIiBwcmVzZXJ2ZUFzcGVjdFJhdGlvPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxnIGZpbGw9IiNmZmZmZmYiPjxwYXRoIGQ9Ik02NDAgMTQwQzI4Ni41NCAxNDAgMCAwIDAgMGgxMjgwUzk5My40NiAxNDAgNjQwIDE0MHoiLz48L2c+PC9zdmc+);
+    background-size: 5.5% 100%;
+    z-index: 4;
+}
+.footer-container{
+    z-index: 3;
+    display: flex;
+    width: 100%;
+}
+
+.footer .footer-container > *{
+    width: 50%;
+}
+.footer .footer-input{
+    display: flex;
+    flex-direction: column;
+    background-color: #EDF1FF;
+    justify-content: center;
+    padding: 10px 77px 180px 73px;
+}
+.footer .footer-input h1{
+    text-align: center;
+}
+.footer .footer-input .footer-button{
+    text-align: end;
+    color: #ffffff;
+    background-color: #2E298E;
+    padding: 21px 40px;
+    letter-spacing: 2px;
+    width: 171px;
+    border-radius: 30px;
+}
+.footer .footer-input input{
+    border: none;
+    padding: 20px;
+    margin-bottom: 30px;
+
+}
+.footer .footer-input textarea{
+    border: none;
+    padding: 20px;
+    margin-bottom: 30px;
+   
+}
+.footer .footer-input button{
+    align-self: end;
+}
+.footer .footer-bottom-divader{
+  
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    bottom: 0;
+    z-index: 5;
+    display: flex;
+    flex-direction: column;
+    color: #3E8ECF;
+}
+
+.footer .footer-bottom-divader .divider{
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMHZ3IiB2aWV3Qm94PSIwIDAgMTI4MCAxNDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGcgZmlsbD0iI2ZmZmZmZiI+PHBhdGggZD0iTTEyODAgODZjLTE5LjktMTcuMjEtNDAuMDgtMzkuNjktNzkuODktMzkuNjktNTcuNDkgMC01Ni45MyA0Ni41OS0xMTUgNDYuNTktNTMuNjEgMC01OS43Ni0zOS42Mi0xMTUuNi0zOS42MkM5MjMuNyA1My4yNyA5MjQuMjYgODcgODUzLjg5IDg3Yy04OS4zNSAwLTc4Ljc0LTg3LTE4OC4yLTg3QzU1NCAwIDU0My45NSAxMjEuOCA0MjMuMzIgMTIxLjhjLTEwMC41MiAwLTExNy44NC01NC44OC0xOTEuNTYtNTQuODgtNzcuMDYgMC0xMDAgNDguNTctMTUxLjc1IDQ4LjU3LTQwIDAtNjAtMTIuMjEtODAtMjkuNTF2NTRIMTI4MHoiLz48L2c+PC9zdmc+);
+    height: 70%;
+    background-size: 100% 100%;
+    bottom: 0;
+    z-index: 5;
+    align-items: end;
+    padding: 0 60px;
+    box-sizing: border-box;
+    color: #3E8ECF;
+    font-size: 1.5rem;
+    justify-content: space-between;
+}
+.footer .footer-bottom-font{
+    height: 30%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .footer-bottom-font{
+    padding: 0 100px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.footer .footer-bottom-font i{
+    margin-right: 20px;
+}
+.footer .footer-bottom-font p{
+    font-size: .9rem;
+}
